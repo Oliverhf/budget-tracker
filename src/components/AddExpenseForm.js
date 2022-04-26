@@ -49,7 +49,7 @@ const AddExpenseForm = () => {
             onChange={(e) => setCost(e.target.value)}
           />
         </div>
-        <div className="col-sm">
+        <div className="col-sm d-flex align-items-end">
           <button type="submit" className="btn btn-primary">
             Save
           </button>
